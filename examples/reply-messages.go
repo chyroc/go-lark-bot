@@ -1,15 +1,3 @@
-# go-lark-bot
-Go Lark Bot Framework
-
-## Install
-
-```bash
-go get github.com/chyroc/go-lark-bot
-```
-
-## Usage
-
-```go
 package main
 
 import (
@@ -39,5 +27,3 @@ func example(ctx context.Context, larkClient *lark.Lark) {
 
 	r.ListenCallback(ctx, nil, nil)
 }
-
-```
